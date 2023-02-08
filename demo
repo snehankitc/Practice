@@ -1,0 +1,4 @@
+import pyinputplus as pypi
+
+name = pypi.inputStr("What's your name? ", limit=3, default='hello')
+print(name)
